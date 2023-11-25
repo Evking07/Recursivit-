@@ -22,7 +22,9 @@ Dans le program principal il faut :
 - initialiser une liste (L = [])
 - faire l’appel à la fonction récursive initListe avce cette liste L, pour la modifier
 - et, demander à l’usager d’entrer la valeur n à partir du clavier
+
 18
+
 Exercice 3 – Algorithme d’Euclide
 • Le Plus Grand Commun Diviseur (PGCD) de deux nombres entiers est le plus grand entier qui divise les deux nombres avec un reste nul.
 • L’algorithme d’Euclide pour trouver le PGCD de x et y est:
