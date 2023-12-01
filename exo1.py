@@ -1,15 +1,13 @@
-def vérifChiffres(l,n):
-    '''(list, int) -> bool
-    Verifie si la liste L de taille n contient que des nombres ou non 
-    '''
-    chiffre =True 
-    for i in range(n) :  
-        if l[i]/10< 1 :
-            i+=1   
-        elif (l[i]/10>=1):
-            chiffre= False
-    return chiffre
+#q1
+def triangle(n): 
+    '''int--->str'''
+    '''fonction Python récursive appelée triangle qui prendra comme paramètre 
+    un entier non négatif et qui générera un dessin composé d’étoile'''
 
-l=[]
-n=len(l)
-print(vérifChiffres([1,2,3,4,50,6,0],6))
+   #Cas de base :
+    if (n==1):
+        print("*") 
+    else:   #application de la récursivité:
+        (n) * str(triangle(n-1))
+        print(n* "*")
+triangle(5)
